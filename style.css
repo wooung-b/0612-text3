@@ -1,0 +1,109 @@
+<style>
+	body{ margin: auto; position: relative; }
+	.black{ background: black; }
+	.white{ background: white; }
+	.wrap{ width: 1400px; margin: auto; position: relative; }
+	#home{ height: 1217px;}
+	#menu1{ height: 1631px;}
+	#menu2{ background: url(./img/back3.jpg); background-size: 100% auto; height: 7389px;}
+	#menu3{ height: 2750px;}
+	#footer{ height: 471px; }
+
+
+	nav,h2{ font-family: 'Archivo Black', sans-serif; font-weight: 700; font-style: italic;}
+	{ font-family: 'Archivo Black', sans-serif; font-weight: 700;}
+	h3, p{ font-family: "source-han-sans-korean", sans-serif; font-weight: 500;}
+	h3{ font-family: "source-han-sans-korean", sans-serif; font-weight: 700;}
+	p{ line-height: 173%; }
+	em{ text-decoration: underline; }
+
+	nav {font-size: 1.3em;}
+
+	a:link, a:active, a:visited, a:hover{ text-decoration: none; }
+	a:hover{ text-decoration: underline; }
+
+	nav{ width: 1400px; margin: auto; height: 200px;}
+	nav #logo{ width: 250px; height: 220px; float: left; margin-left: 100px; margin-top: -5px;}
+	nav #logo img{ height: 220px;}
+	nav #menuList{ float: right; margin-right: 66px; margin-top: 85px; padding: 0;}
+	nav #menuList .main-menu-item{ list-style: none; float: left; width: 219px; height: 65px; line-height: 125%;}
+	nav #menuList a{ height: 65px; }
+	nav #menuList2{ float: right; margin-right: 66px; margin-top: 85px; padding: 0;}
+	nav #menuList2 .main-menu-item2{ list-style: none; float: left; width: 219px; height: 65px; line-height: 125%;}
+	nav #menuList2 a{ height: 65px; }
+
+	span {display: block;}
+
+	.title{ float: left; width: 640px; margin: auto; position: relative; left: 30px;}
+	.title h2{ font-size: 7.5em; letter-spacing: -4px; color: white; background: black; }
+	.title2{ float: left; width: 640px; margin: auto; position: relative; left: 30px;}
+	.title2 h2{ font-size: 7.5em; letter-spacing: -4px; color: black; background: white;}
+
+	/*scroll*/
+	#imgX{position:fixed; width:480px; height:480px; top:290px; left:520px; }
+
+	/*header*/
+	header #america { width: 1200px; position: relative; left: 136px; top: 215px;}
+	header #america img{ width: 94%;}
+
+	/*menu1*/
+	#movie{width: 200%; height: 600px; max-width: 1080px; position: relative; left: 357px; }
+	#menu1 .text { width: 1110px; margin: auto; position: relative; top: 370px; background: white;}
+	#menu1 .text p{ font-size: 1.33em; line-height: 173%; letter-spacing: -0.5px; }
+
+	/*menu2*/
+	section {width: 1150px; margin: auto; position: relative; top: 500px; margin-bottom: 3em; background: red;}
+	section:after {content:""; display: block; clear: both;}
+	#bang {width: 1250px; height: 800px; background: url(./img/bang.jpg); background-size: cover;}
+	.col1 {width: 30%; margin: 1.65%;}
+	.col1 img {width: 140%;}
+	.col2 {width: 35%; margin: 1.65%;}
+	.col2 img {width: 90%;}
+	.col3 {width: 44%; margin: 1.65%;}
+	.col4 {width: 50%; margin: 1.65%;}
+	.col4 img {width: 66%}
+	.col4-1 {width: 55%; margin: 1.65%}
+	.col4-1 img {width: 80%;}
+	.col6 {width: 38%; margin: 1.65%;}
+	.col6 img {width: 113%;}
+
+	.section-texts {padding: 1.65%;}
+	.no-padding {padding: 0;}
+
+	.section-texts p {margin: 0; color: white; font-size: 1.33em; letter-spacing: -0.5px;}
+	.section-texts2 p {margin: 0; color: white; font-size: 1.33em; letter-spacing: -0.5px; text-align: right;}
+
+	.left {float: left;}
+	.right {float: right;}
+
+	/*menu3*/
+	#gambino { width: 1400px; margin: auto; position: relative; top: 50px;}
+	#gambino img{ width: 1400px; }
+	#menu3 .text { width: 1110px; margin: auto; position: relative; top: 190px; left: 5px; background: white;}
+	#menu3 .text p{ font-size: 1.33em; line-height: 173%; letter-spacing: -0.55px; }
+	#menu3 .text2 { width: 880px; margin: auto; position: relative; top: 148px; right: 110px; background: white;}
+	#menu3 .text2 p{ font-size: 1.33em; line-height: 173%; letter-spacing: -0.6px; }
+	#menu3 .text3 { width: 1110px; margin: auto; position: relative; top: 270px; left: 5px; background: white;}
+	#menu3 .text3 p{ font-size: 1.33em; line-height: 173%; letter-spacing: -0.55px; }
+	#menu3 #pizza {width: 200px; position: relative; float: right; bottom: 125px; right: 195px;}
+	#menu3 #wutang {width: 750px; margin: auto; position: relative; top: 210px;}
+
+	.section { width: 1350px; margin: auto; padding: 1em; margin-bottom: 1em; z-index: 9999}
+	.float{ width: 300px; height: 300px; float: left; margin:1em; margin-bottom: -2em; z-index: 9999}
+	.album{ height: 300px; overflow: hidden; z-index: 9999}
+	.album img{ width: 300px; z-index: 9999}
+	.clear {clear: both;}
+
+	/*footer*/
+	footer .info { width: 1110px; margin: auto; position: relative; top: 350px; left: 5px; }
+	footer .info p{font-size: 1em; line-height: 170%; letter-spacing: -0.5px; color: white;}
+	footer .info2 { width: 1110px; margin: auto; position: relative; top: 350px; left: 5px; }
+	footer .info2 p{font-size: 1em; line-height: 170%; letter-spacing: -0.5px; }
+
+
+	@media all and (max-width: 767px) {
+		header {width: inherit; height: 300px;}
+
+	}
+/*margin-left: 63px; margin-top: 60px;*/
+</style>
